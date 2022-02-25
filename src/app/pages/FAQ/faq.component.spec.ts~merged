@@ -1,5 +1,16 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
+<<<<<<< HEAD
+import { FAQComponent } from './faq.component';
+
+describe('FAQComponent', () => {
+  let component: FAQComponent;
+  let fixture: ComponentFixture<FAQComponent>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ FAQComponent ]
+=======
 import { FaqComponent } from './faq.component';
 
 describe('FaqComponent', () => {
@@ -9,12 +20,17 @@ describe('FaqComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ FaqComponent ]
+>>>>>>> 9c1bc1be0cf2ec498f1ce3cf680ad07bb7a15f30
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
+<<<<<<< HEAD
+    fixture = TestBed.createComponent(FAQComponent);
+=======
     fixture = TestBed.createComponent(FaqComponent);
+>>>>>>> 9c1bc1be0cf2ec498f1ce3cf680ad07bb7a15f30
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

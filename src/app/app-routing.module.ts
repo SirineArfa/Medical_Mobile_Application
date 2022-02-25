@@ -2,7 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {AdminComponent} from './layout/admin/admin.component';
 import {AuthComponent} from './layout/auth/auth.component';
+<<<<<<< HEAD
 import {FAQComponent} from './pages/faq/faq.component';
+=======
+import {FaqComponent} from './pages/faq/faq.component';
+>>>>>>> 9c1bc1be0cf2ec498f1ce3cf680ad07bb7a15f30
 import {DoctorProfileComponent} from './pages/doctor-profile/doctor-profile.component';
 import {DoctorProfile2Component} from './pages/doctor-profile2/doctor-profile2.component';
 import {DoctorProfile3Component} from './pages/doctor-profile3/doctor-profile3.component';
@@ -57,11 +61,19 @@ const routes: Routes = [
   },
   {
     path: '',
+<<<<<<< HEAD
     component: FAQComponent,
     children: [
       {
         path: 'faq',
         loadChildren: () => import('./pages/faq/faq.module').then(m => m.FAQModule)
+=======
+    component: FaqComponent,
+    children: [
+      {
+        path: 'faq',
+        loadChildren: () => import('./pages/faq/faq.module').then(m => m.FaqModule)
+>>>>>>> 9c1bc1be0cf2ec498f1ce3cf680ad07bb7a15f30
       }
     ]
   },
