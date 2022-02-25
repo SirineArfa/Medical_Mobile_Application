@@ -44,7 +44,7 @@ const MENUITEMS = [
       {
         state: 'basic',
         short_label: 'B',
-        name: 'Basic Components',
+        name: 'Our services',
         type: 'sub',
         icon: 'ti-layout-grid2-alt',
         children: [

@@ -36,7 +36,7 @@ var MENUITEMS = [
         main: [
             {
                 state: 'basic',
-                name: 'Basic Components',
+                name: 'Our services',
                 type: 'sub',
                 icon: 'ti-layout-grid2-alt',
                 children: [

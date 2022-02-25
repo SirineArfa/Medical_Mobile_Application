@@ -1,10 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.sirine{
+  width: 100%;
+  height: 150%;
+}
+._ngcontent-nmk-c2 .ng-tns-c3-1{
+  color: palevioletred;
+}
+
 body {
   background-color: #f3f3f3;
   font-size: 0.875em;
   overflow-x: hidden;
   color: #353c4e;
   font-family: "Open Sans", sans-serif;
+  height: 100%;
 }
 
 * {
@@ -1813,6 +1824,7 @@ a {
 
 .profile-bg-img {
   width: 100%;
+  height: 1%;
 }
 
 .user-title {
@@ -3879,6 +3891,9 @@ a {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  
+
+
   .pull-sm-0 {
     right: auto;
   }

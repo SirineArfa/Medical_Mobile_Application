@@ -5,7 +5,7 @@ const routes: Routes = [
   {
     path: '',
     data: {
-      breadcrumb: 'Basic Components',
+      breadcrumb: 'Our services',
       status: false
     },
     children: [
